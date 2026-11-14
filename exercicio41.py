@@ -1,5 +1,6 @@
+#entrada
 print()
-n=int(input("digite um numero entre 0 e 9999: "))
+n=int(input("digite um numero entre 1000 e 9999: "))
 print()
 c4=n//1000
 r4=n%1000
