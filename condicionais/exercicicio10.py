@@ -18,8 +18,8 @@ if lucro<50:
     print()
     if alerta== "sim":
         print(f"o preço final, com a margem de lucro de {lucro}% será de {precofin}")
-    elif alerta=="não":
-        print("Digite um percentual acima de 50%")
+    for alerta in ["não"]:
+        print("Digite um percentual acima de 50%") 
 
 
 else:
